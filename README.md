@@ -12,6 +12,7 @@ Variance, Standard devation
 
 Ứng dụng Variance sử dụng để làm nổi bật shape của bức ảnh
 
-PMF
-PDF
-CDF
+PMF: Discrete
++ Ví dụ như tung xúc xắc
+PDF: Continous
+CDF: Discrete và Continous
