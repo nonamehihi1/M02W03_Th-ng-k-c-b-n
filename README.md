@@ -16,3 +16,7 @@ PMF: Discrete
 + Ví dụ như tung xúc xắc
 PDF: Continous
 CDF: Discrete và Continous
+
+
+Covariance: Hiệp phương sai 
+Corelation Coeficient: 
