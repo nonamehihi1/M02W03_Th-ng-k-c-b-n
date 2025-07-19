@@ -8,14 +8,19 @@ Median
 Mean, Expected Value
 - Mean là tính giá trị trung bình sau khi đã thu thập dữ liệu, còn Expected Value là giá trị mong muốn trước khi thu thập dữ liệu
 + Tính theo Population: tính trung bình trên toàn bộ tập dữ liệu
-+ Tính theo Sample; Tính trung bình trên 1 tập nhỏ dữ liệu, ví dụ muốn tính trung bình chiều cao của 1 đất nước, rất khó có thể thu thập hết toàn bộ dữ liệu và tính trung bình, thay vào đó ta có thể tính trung bình trong 1 tập dữ liệu nhỏ hơn(như là 100k người thay vì 100 tr người)
++ Tính theo Sample: Tính trung bình trên 1 tập nhỏ dữ liệu, ví dụ muốn tính trung bình chiều cao của 1 đất nước, rất khó có thể thu thập hết toàn bộ dữ liệu và tính trung bình, thay vào đó ta có thể tính trung bình trong 1 tập dữ liệu nhỏ hơn(như là 100k người thay vì 100 tr người)
 
 Find the mean Z that minimizes the variance: 
 <img width="1205" height="677" alt="image" src="https://github.com/user-attachments/assets/ec2b1691-7979-40db-8ea8-6c85dbd8ce95" />
 - Như ở hình trên ta có cách chứng minh công thức tìm mean z từ đạo hàm của variance = 0 để Variance nhỏ nhất
 
-Tại sao công thức tính Variance(phương sai) của Sample Mean lại là 'n-1' chứ không phải n giống như Populattion Mean
-- 
+Thường thì giá trị của Variance của Sample Mean sẽ nhỏ hơn so với Variance của Population Mean, vậy ta cần làm gì để giá trị Var của Sample Mean gần lại hơn với Population Mean:
+<img width="317" height="65" alt="image" src="https://github.com/user-attachments/assets/73086caa-73ff-49cb-ba68-434fed494b66" />
+- Là ta sẽ chia cho mẫu để làm tăng giá trị lên, thay vì là 'n' ta sẽ sửa thành 'n-1'
+
+Tại sao công thức tính Variance(phương sai) của Sample Mean lại là 'n-1' chứ không phải 'n-2' hay 'n-3':
+- Chúng ta sẽ lấy ví dụ như sau: có 2 người, 1 người tung xúc sắc, 1 người đoán mặt xúc sắc, nếu người tung nói không phải mặt 1 2 3 4 5, thì người còn lại có thể dễ dàng đoán được mặt còn lại chắc chắn là số 6, ta có thể thấy giá trị cuối cùng không thể là số khác ngoài những số đã chọn, vậy nên giá trị cuối cùng là cố định và không còn độc lập nữa, thêm ví dụ nữa, mean = 5, ta có 4 5 x, thì chắc chắn x sẽ là 6 mà không phải số nào khác
+<img width="292" height="161" alt="image" src="https://github.com/user-attachments/assets/f73da389-d138-4871-aaf9-a5142a7358f6" />
 
 Variance, Standard devation
 
