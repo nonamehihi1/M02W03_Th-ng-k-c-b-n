@@ -35,8 +35,10 @@ CDF: Discrete và Continous
 Correlation: Tương quan
 - Tương quan giữa 2 biến:
 <img width="630" height="308" alt="image" src="https://github.com/user-attachments/assets/23c52b52-8ee7-42fc-a1f4-b87e9e799577" />
+
 - Covariance giữa 2 biến X và Y được tính bằng công thức:
 <img width="347" height="90" alt="image" src="https://github.com/user-attachments/assets/b6c5cf04-9973-4610-96cf-2df5be166e1b" />
+
 + Cov > 0: Khi X tăng và Y tăng ==> MQH thuận chiều
 + Cov < 0: Khi X tăng mà Y giảm ==> MQH nghịch chiều
 
