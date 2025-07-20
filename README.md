@@ -48,5 +48,10 @@ Corelation Coeficient:
 - Giá trị Covariance không được chuẩn hóa, nên nó phụ thuộc vào đơn vi đo của 2 biến, ví dụ giữa chiều cao(Cm) và cân nặng(kg) = 120, nhưng khi đổi Cm -> M thì Covariance != 120, vì vậy ta sẽ sử dụng Correlation Coeficient
 <img width="171" height="84" alt="image" src="https://github.com/user-attachments/assets/fb78ec02-ea0f-48ab-9d40-c054f04150d2" />
 
+Nhưng công thức trên là công thức lý thuyết, đúng cho Population, nhưng thực tế khi tính từ dữ liệu mẫu(sample) sẽ như sau: 
+
+<img width="484" height="121" alt="image" src="https://github.com/user-attachments/assets/62dc67ed-490d-4075-ac11-5bc28063e8e7" />
+
+
 
 
