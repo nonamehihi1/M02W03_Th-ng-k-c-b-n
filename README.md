@@ -46,7 +46,7 @@ Covariance: Hiệp phương sai
 
 Corelation Coeficient: 
 - Giá trị Covariance không được chuẩn hóa, nên nó phụ thuộc vào đơn vi đo của 2 biến, ví dụ giữa chiều cao(Cm) và cân nặng(kg) = 120, nhưng khi đổi Cm -> M thì Covariance != 120, vì vậy ta sẽ sử dụng Correlation Coeficient (1)
-<img width="171" height="84" alt="image" src="https://github.com/user-attachments/assets/fb78ec02-ea0f-48ab-9d40-c054f04150d2" />
+<img width="466" height="100" alt="image" src="https://github.com/user-attachments/assets/80043523-2acb-44e2-94c2-4075fd5e354f" />
 
 Nhưng công thức trên là công thức lý thuyết, đúng cho Population, nhưng thực tế khi tính từ dữ liệu mẫu(sample) sẽ như sau: (2)
 
